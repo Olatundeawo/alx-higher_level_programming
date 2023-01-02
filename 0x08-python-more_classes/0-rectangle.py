@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" Defines a rectangle """
+""" Defines a rectangle class """
 
 class Rectangle:
     """ Represent a rectangle """
