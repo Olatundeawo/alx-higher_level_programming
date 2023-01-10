@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
-""" a function that reads a file """
+""" 
+a function that reads a file 
+
+"""
 
 def read_file(filename=""):
     """read file encoded in utf """
