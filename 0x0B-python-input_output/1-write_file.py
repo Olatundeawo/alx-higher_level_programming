@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
-""" function that writes into a txt file """
+"""
+1-write_file.py
+function that writes into a txt file
+
+"""
 
 def write_file(filename="", text=""):
     """ print a text file"""
