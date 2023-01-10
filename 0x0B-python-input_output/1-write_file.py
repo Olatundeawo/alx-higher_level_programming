@@ -4,7 +4,13 @@
 """
 
 def write_file(filename="", text=""):
-    """ print a text file"""
+    """ Function that writes to a text file
+    Args:
+        filename: filename
+        text: text to write
+    Raises
+        Exception: when the file can be opened
+    """
 
     with open(filename, mode = 'w', encoding='UTF-8')as file:
         return file.write(text)
