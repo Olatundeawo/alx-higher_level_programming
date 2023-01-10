@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
-""" 
-a function that reads a file 
+""" a function that reads a file 
 
 """
 
