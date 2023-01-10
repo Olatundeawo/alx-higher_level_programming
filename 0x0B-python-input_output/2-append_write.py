@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 
-""" 
-2-append_write.py
-function that appends a string at the end of a text file
-
+""" Module that contains a function that appends to a text file
 """
 
 def append_write(filename="", text=""):
