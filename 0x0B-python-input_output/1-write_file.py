@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """ Module that contains a function that writes into a txt file
 """
 
