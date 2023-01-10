@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""function that writes into a txt file
+""" Module that contains a function that writes into a txt file
 """
 
 def write_file(filename="", text=""):
@@ -12,5 +12,5 @@ def write_file(filename="", text=""):
         Exception: when the file can be opened
     """
 
-    with open(filename, mode = 'w', encoding='UTF-8')as file:
+    with open(filename, mode = 'w', encoding='utf-8') as file:
         return file.write(text)
