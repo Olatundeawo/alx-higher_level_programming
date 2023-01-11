@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" return print object attribute """
+""" 
+return print object attribute 
+"""
 
 
 def lookup(obj):
