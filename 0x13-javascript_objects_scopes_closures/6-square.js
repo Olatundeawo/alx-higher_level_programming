@@ -10,7 +10,7 @@ class Square extends square {
       chars = c;
     }
     let i;
-    let j ='';
+    let j = '';
     for (i = 0; i < this.width; i++) {
       j += chars;
     }
