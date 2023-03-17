@@ -7,7 +7,7 @@ import sys
 
 
 def main(argv):
-    """ link all the 3 arguments to something """
+    """link all the 3 arguments to something"""
     db = MySQLdb.connect(host="localhost", port=3306,
                          user= argv[1], passwd=argv[2], db=argv[3])
     cur = db.cursor()
