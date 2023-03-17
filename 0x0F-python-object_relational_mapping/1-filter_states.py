@@ -17,6 +17,7 @@ def main(argv):
     rows = cur.fetchall()
     for row in rows:
         print(row)
+    pass
     cur.close()
     db.close()
 
