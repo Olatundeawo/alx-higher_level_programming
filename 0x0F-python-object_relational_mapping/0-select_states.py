@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 take 3 arguments with no validation
 """
