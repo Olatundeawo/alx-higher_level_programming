@@ -2,7 +2,7 @@
 """
 take 3 arguments with no validation
 """
-import mySQLdb
+import MySQLdb
 import sys
 
 def main(argv):
