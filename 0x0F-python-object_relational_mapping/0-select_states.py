@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 take 3 arguments with no validation
+and lists all states from the database
 """
 import sys
 import MySQLdb
