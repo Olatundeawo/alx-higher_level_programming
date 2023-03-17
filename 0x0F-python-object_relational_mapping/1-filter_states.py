@@ -1,24 +1,21 @@
 #!/usr/bin/python3
-
 """
-accepts 3 arguments
-and lists all states with a name N as the beginning
+take 3 arguments with no validation
+and lists all name from states that start with N
 """
-
 import sys
 import MySQLdb
 
 
 def main(argv):
-    """list states with name starting with N"""
-    db = MySQLdb.connect(host="localhost", port=3306, 
-                        user=argv[1], password=argv[2], db=argv[3])
+    """display name from states that start with N"""
+    db = MySQLdb.connect(host="localhost", port=3306,
+                         user=argv[1], passwd=argv[2], db=argv[3])
     cur = db.cursor()
-    cur.execute = ("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY id ASC")
+    cur.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDER BY id ASC")
     rows = cur.fetchall()
     for row in rows:
         print(row)
-    pass
     cur.close()
     db.close()
 
