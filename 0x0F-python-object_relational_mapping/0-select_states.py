@@ -2,8 +2,8 @@
 """
 take 3 arguments with no validation
 """
-import MySQLdb
 import sys
+import MySQLdb
 
 
 def main(argv):
