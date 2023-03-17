@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-take 4 arguments with no validation
-and display name that matches the 4th argument
+accepts 3 arguments (mysql username, password and database name)
+and lists all states from that database whose names start with a given string
 """
 import sys
 import MySQLdb
