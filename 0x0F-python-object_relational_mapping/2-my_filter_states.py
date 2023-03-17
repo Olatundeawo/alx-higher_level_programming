@@ -8,9 +8,7 @@ import MySQLdb
 
 
 def main(argv):
-    """display the name that matches the 4th 
-        argument
-    """
+    """display the name that matches the 4th argument"""
     db = MySQLdb.connect(host="localhost", port=3306,
                          user=argv[1], passwd=argv[2], db=argv[3])
     cur = db.cursor()
@@ -19,6 +17,7 @@ def main(argv):
     rows = cur.fetchall()
     for row in rows:
         print(row)
+    pass
     cur.close()
     db.close()
 
