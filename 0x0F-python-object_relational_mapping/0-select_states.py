@@ -6,6 +6,7 @@ take 3 arguments with no validation
 import MySQLdb
 import sys
 
+
 def main(argv):
     """ link all the 3 arguments to something """
 
